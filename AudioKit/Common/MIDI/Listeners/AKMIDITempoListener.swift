@@ -33,7 +33,7 @@ public typealias BPMType = TimeInterval
 /// changes.
 ///
 ///     class YOURCLASS: AKMIDITempoObserver {
-///         func receivedTempoUpdate(bpm: BPMType, label: String) {  ... }
+///         func receivedTempo(bpm: BPMType, label: String) { ... }
 ///         func midiClockSlaveMode() { ... }
 ///         func midiClockMasterEnabled() { ... }
 ///
